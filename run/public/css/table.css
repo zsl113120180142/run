@@ -1,0 +1,82 @@
+.table {
+    padding: 10px;
+}
+
+/* 设置滚动条 */
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+/* 设置表的高度 */
+.el-table__header tr,
+.el-table__header th {
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.el-table__body tr,
+.el-table__body td {
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+.el-table th > .cell {
+    padding-left: 14px;
+}
+
+/* 设置表中字体胖瘦 */
+.el-pager li {
+    font-weight: 400;
+}
+
+/* 输入框样式 */
+.admin {
+    text-align: center;
+}
+
+.admin .search_input {
+    width: 30%;
+    color: #fff;
+    margin: 0px 10px 10px 0;
+}
+.search_input {
+    width: 30%;
+    color: #fff;
+    margin: 0px 10px 10px 300px;
+}
+
+.el-main[data-v-7ba5bd90] {
+    line-height: 70px;
+}
+
+/* 删除学生样式 */
+/* .el-dialog__header{
+    padding: 5px 0 0 0;
+}
+.el-dialog__body{
+    padding: 0;
+} */
+.el-table__row .el-table_1_column_1 {
+    text-align: center;
+}
+
+/* 表格居中 */
+.el-table td, .el-table th {
+    text-align: center;
+}
+
+/* 修改删除间隙 */
+.el-icon-edit {
+    margin-right: 10px;
+}
+
+.el-dialog {
+    padding: 0 15px 0 0;
+    width: 35%;
+}
+
+.el-form-item__content {
+    margin-left: 130px !important;
+}

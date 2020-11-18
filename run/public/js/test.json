@@ -1,0 +1,59 @@
+{
+  "ruleBeanList": [
+    {
+      "uid": 1,
+      "rweek": 3,
+      "sex": "男",
+      "rkm": 10,
+      "rtime": "00:45:00",
+      "starttime": "06:00:00",
+      "endtime": "08:00:00"
+    },
+    {
+      "uid": 3,
+      "rweek": 2,
+      "sex": "女",
+      "rkm": 2.5,
+      "rtime": "00:45:00",
+      "starttime": "06:00:00",
+      "endtime": "08:00:00"
+    }
+  ],
+  "resultBeanList": [
+    {
+      "rid": 1,
+      "minresult": 1,
+      "rresult": 0
+    },
+    {
+      "rid": 2,
+      "minresult": 24,
+      "rresult": 60
+    },
+    {
+      "rid": 3,
+      "minresult": 27,
+      "rresult": 70
+    },
+    {
+      "rid": 4,
+      "minresult": 31,
+      "rresult": 80
+    },
+    {
+      "rid": 5,
+      "minresult": 35,
+      "rresult": 90
+    },
+    {
+      "rid": 6,
+      "minresult": 36,
+      "rresult": 100
+    }
+  ],
+  "weekBean": {
+    "seid": 4,
+    "wid": 0,
+    "wname": 1
+  }
+}

@@ -1,0 +1,122 @@
+.el-menu-item-group__title {
+    padding: 0
+}
+
+.el-submenu__title {
+    padding-left: 35px !important;
+    background: #324158;
+    color: white;
+}
+
+.el-submenu__title:hover {
+    background: #2d3a4e !important;
+}
+
+.el-menu-item {
+    background: #324158;
+    color: white;
+}
+
+.el-menu-item:focus, .el-menu-item:hover {
+    background: #2d3a4d !important;
+}
+
+.menuLeft .el-menu-item.is-active {
+    background: #6db6ff !important;
+}
+
+.menuLeft .el-submenu__title.is-active {
+    background: #6db6ff !important;
+}
+
+.el-menu-item.is-active {
+    color: white;
+}
+
+.tab_logo {
+    background: #324158;
+    float: left;
+    width: 230px;
+    margin-left: -20px;
+    margin-right: 10px;
+    line-height: 60px;
+}
+
+.user {
+    position: relative;
+    float: right;
+    height: 56px;
+    margin-right: 30px;
+    line-height: 60px;
+}
+
+.user:hover {
+    border-bottom: 4px solid skyblue;
+    transition-duration: 0.2s;
+}
+
+.gooff {
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    background: #fffffffa;
+    border-radius: 5px;
+    box-shadow: 0px 20px 20px -20px #5E5E5E;
+}
+
+.gooff li {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 3px;
+    color: #606266;
+}
+
+.gooff li:hover {
+    color: rgb(93, 174, 255);
+    background: #cde6ff;
+}
+
+.el-menu {
+    border: none;
+}
+
+.nav_tag {
+    height: 32px;
+    padding: 10px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    text-align: center;
+    background: #fcfeff;
+    border-radius: 5px;
+    box-shadow: 0px 20px 20px -20px #5E5E5E;
+}
+
+.nav_el_tag {
+    width: 90px;
+    margin: 0 auto;
+    float: left;
+}
+
+.nav_home_tag {
+    width: 90px;
+    margin-right: 10px;
+    float: left;
+}
+
+.tag_scrollbar {
+    height: 7%;
+}
+
+/*.el-scrollbar .el-scrollbar__wrap .el-scrollbar__view {*/
+/*    white-space: nowrap;*/
+/*}*/
+
+.el-tabs__header {
+    margin: 0;
+}
+
+/* 选择器高度bug */
+.el-scrollbar__wrap {
+    overflow-x: scroll;
+}
